@@ -1,0 +1,534 @@
+/* responsive start */
+@media (max-width:799px) {
+    #header #navbar {
+        display: flex;
+        flex-direction: column;
+        
+        padding: 30px;
+        background-color: #E3E6F3;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+transition: 0.3s;
+    }
+    #header #navbar.active {
+       
+      
+        right: 0;
+     
+
+    }
+
+    #header #navbar li {
+        list-style-type: none;
+
+        margin: 20px 0;
+    }
+
+    #mobileClose{
+        display: flex;
+      }
+    #mobileClose i{
+        font-size: 23px;
+        color: black;
+      }
+    .mobile {
+        display: flex;
+      }
+    .mobile i{
+       cursor: pointer;
+       font-size: 24px;
+      }
+
+      /* hero start */
+      #hero {
+      
+        height: 70vh;
+        width: 100%;
+       
+        background-position: top 25% right 25%;
+        
+    }
+    /* hero end */
+
+    /* feature start */
+    #feature {
+        padding: 40px 40px;
+      
+        justify-content: center;
+     
+        margin: 15px 0px;
+        
+    }
+
+    #feature .card {
+      margin: 15px 15px;
+    }
+    /* feature end */
+
+
+    /* product start */
+    .cards {
+     
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #products .cards .card {
+       
+        margin: 15px 25px;
+        padding: 10px 10px;
+       
+    }
+    /* product end */
+
+    /* repair start */
+    #repair h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    #repair h2 span {
+        font-size: 40px;
+        color: rgb(184, 0, 0);
+    }
+
+    #repair h6 {
+        font-size: 27px;
+        margin-bottom: 20px;
+        color: rgb(200, 229, 255);
+    }
+    #repair button {
+        font-size: 17px;
+        padding: 8px 24px;
+       margin-top: -7px;
+    }
+
+    #repair button:hover {
+        font-size: 17px;
+        padding: 8px 24px;
+    }
+
+    #repair {
+        padding: 0px;
+        
+        height: 21vh;
+        
+    }
+
+
+    #banner5 .card1 {
+       
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+
+    #banner5 .card2 {
+       
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+    #newsletter .n1 h4 {
+        color: rgb(247, 247, 247);
+        font-size: 27px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    #newsletter .n1 p {
+        color: rgb(247, 247, 247);
+        font-size: 15px;
+    }
+
+    #newsletter {
+        background-color: #11235A;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    #newsletter #email {
+        width: 293px;
+        height: 50px;
+        padding: 3px 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 30px;
+    }
+
+    #newsletter .n2 button {
+        width: 82px;
+        height: 50px;
+        border: none;
+        padding: 3px 1px;
+        background-color: #088178;
+        font-size: 15px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s ease;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top: -0.7px;
+        margin-bottom: 30px;
+    }
+    #newsletter {
+        background-color: #11235A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    #blogPost {
+        padding: 86px 16px 0 15px;
+    }
+    #blogPost .blogCard .blogDesc {
+        width: 46%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 23px;
+        margin-top: 101px;
+    }
+    #blogPost .blogCard .blogDesc h2 {
+        font-size: 34px;
+        margin-top: -84px;
+    }
+
+    #aboutSection {
+        padding: 40px 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aboutSection {
+        padding: 40px 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #aboutSection img {
+        width: 100%;
+        height: auto;
+    }
+    #aboutSection .aboutDesc h1 {
+        font-size: 55px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    #products {
+        padding: 40px 11px;
+    }
+
+
+    #contact {
+        padding: 80px 21px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #contact .contactDesc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 94px;
+        margin: 40px auto;
+    }
+    .contactMap iframe{
+        width: 90vw;
+        height: 40vh;
+        margin: 10px auto;
+        margin-left: 15px;
+    }
+
+    #coupon {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 40px 20px;
+        margin: 10px auto;
+    }
+
+    #coupon .cartTotal {
+        border: 1px solid gray;
+        padding: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .inputCoupon {
+        width: 800px;
+        margin: 10px 0 40px 0;
+        margin-left: -128px;
+    }
+    #coupon .applyCoupon h3 {
+        font-size: 40px;
+        margin-left: 60px;
+    }
+
+    #coupon .applyCoupon .inputCoupon input {
+        width: 60%;
+        padding: 13px 15px;
+        font-size: 17px;
+        border-radius: 10px;
+        border: none;
+        border: 1px solid gray;
+    }
+
+
+    #mainCart {
+        padding: 40px 31px;
+        overflow-x: auto;
+    }
+}
+
+/* 477 --------------------------------------------------------------- */
+
+@media (max-width:477px){
+
+
+
+    #header {
+       
+        padding: 30px 26px;
+       
+    }
+
+    #hero {
+        height: 78vh;
+        width: 100%;
+        background-position: top 21% right 33%;
+    }
+    #banner5 {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        padding: 40px 0px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #banner5 .card2 ,
+    #banner5 .card1
+    {
+        min-width: 100%;
+        height: 30vh;
+        background-size: cover;
+    }
+    .card1, .card2, h2 {
+        font-size: 35px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .col strong, h6, p {
+        font-weight: 400;
+        color: #ededed;
+    }
+    #products .cards .card {
+        width: 23%;
+        min-width: 369px;
+      
+    }
+
+
+    #header #navbar {
+        
+        width: 142px;
+        height: 100vh;
+        
+    }
+
+    .col1 p {
+        font-size: 17px;
+        color: black;
+    }
+    .col strong, h6, p {
+        font-weight: 400;
+        color: #000000;
+    }
+
+
+    #feature .card {
+        text-align: center;
+        padding: 30px 9px;
+        border: 2px solid rgb(204, 204, 204);
+        margin: 15px 15px;
+        height: 210px;
+    }
+
+    #feature .card {
+        margin: 15px 5px;
+    }
+
+    .productsName h2 {
+        font-size: 49px;
+        margin-bottom: 20px;
+        color: #353535;
+    }
+
+    .productsName p {
+        font-size: 15px;
+        margin-bottom: 50px;
+        color: rgb(65, 65, 65);
+    }
+
+
+    #aboutSection {
+        padding: 40px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aboutSection img {
+        width: 100%;
+        height: auto;
+    }
+
+    #aboutSection .aboutDesc h1 {
+        font-size: 55px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #contact {
+        padding: 22px 18px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #contact .contactDesc {
+       
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .contactMap iframe{
+        width: 90vw;
+        height: 40vh;
+    }
+
+    footer {
+        background: #E3E6F3;
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 4px 14px;
+    }
+
+    .col1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 40px;
+        margin-left: 60px;
+    }
+    .col4{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 40px;
+        margin-left: 60px;
+    }
+
+    .col2,.col3{
+        padding: 10px 20px;
+    }
+
+    #blogPost {
+        padding: 86px 16px 0 15px;
+        margin: 30px 0;
+    }
+    /* #blogPost .blogCard {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 50vh;
+        margin: 60px 0;
+    } */
+
+    #blogPost .blogCard .blogDesc {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 0px;
+    }
+
+    #blogPost .blogCard {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #blogPost .blogCard .blogDesc h2 {
+        font-size: 34px;
+        margin-top: -67px;
+    }
+
+    #blogPost .blogCard .blogImg {
+        width: 100%;
+    }
+
+    #coupon .applyCoupon .inputCoupon input {
+        width: 36%;
+        padding: 13px 15px;
+        font-size: 17px;
+        border-radius: 10px;
+        border: none;
+        border: 1px solid gray;
+    }
+
+    #coupon .applyCoupon h3 {
+        font-size: 28px;
+        margin-left: -3px;
+    }
+
+    #coupon .cartTotal #proceed {
+        width: 50%;
+        padding: 13px 1px;
+        font-size: 15px;
+        background-color: #088178;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+/* responsive ends */
